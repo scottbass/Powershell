@@ -88,7 +88,7 @@ param(
    [ValidateScript({Test-Path $_})]
    [System.IO.FileInfo]$xlFile
    ,
-   # ouptput format
+   # output format
    [Parameter(
       Position=1
    )]
